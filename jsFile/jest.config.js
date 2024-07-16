@@ -1,0 +1,1 @@
+module.exports = { coverageThreshold: { './jsFile/*.js': { lines: 80, }, }, };
