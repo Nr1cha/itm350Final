@@ -2,6 +2,6 @@ on: push
 jobs:
   firstFinal-job:
     runs-on: windows-latest
-    steps: 
+    steps:
       - run: node --version
       - run: npm --version
