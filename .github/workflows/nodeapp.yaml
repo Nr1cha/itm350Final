@@ -6,4 +6,4 @@ jobs:
       - run: node --version
       - run: npm --version
       - run: npm install
-      - run: node ./itm350Final/app.js
+      - run: node ./app.js
