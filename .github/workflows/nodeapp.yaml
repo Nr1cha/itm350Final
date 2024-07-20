@@ -5,5 +5,7 @@ jobs:
     steps:
       - run: node --version
       - run: npm --version
-      - run: cd .. && npm install
-      - run: node app.js
+      - run: pwd
+      - run: ls
+      # - run: npm install
+      # - run: node app.js
