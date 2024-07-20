@@ -1,0 +1,9 @@
+on: push
+jobs:
+  firstFinal-job:
+    runs-on: windows-latest
+    steps:
+      - run: node --version
+      - run: npm --version
+      - run: npm install
+      - run: node ./itm350Final/app.js
